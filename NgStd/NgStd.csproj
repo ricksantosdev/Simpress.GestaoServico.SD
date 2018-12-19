@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <None Remove="src\app\meu-primeiro\meu-primeiro.component.ts" />
-    <None Remove="teste.ts" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,7 +22,6 @@
 
   <ItemGroup>
     <TypeScriptCompile Include="src\app\meu-primeiro\meu-primeiro.component.ts" />
-    <TypeScriptCompile Include="teste.ts" />
   </ItemGroup>
 
   <PropertyGroup>
