@@ -26,3 +26,7 @@ C:\> ng serve  - compila e serve aplicação no endereço patrão localhost://4200
 C:\> ng g c <nome-do-component> - criando componente
 C:\> ng g m <nome-do-modulo> - criando um novo modulo 
 C:\> ng g s <nome-do-servico> - criando um servico
+
+
+Instalação de Pacotes
+npm install ng2-bootstrap bootstrap --save    | trabalhar com bootstrap e com facilitador bootstrap
