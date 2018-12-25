@@ -15,6 +15,8 @@ import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { CursosModule } from './cursos/cursos.module';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { InputPropertyComponent } from './input-property/input-property.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
 @NgModule({
   //referenciamos componentes , diretivas e Pipes
   declarations: [
@@ -23,6 +25,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     MeuPrimeiro2Component,
     DataBindingComponent,
     EventBindingComponent,
+    InputPropertyComponent,
+    OutputPropertyComponent,
 
 
   ],

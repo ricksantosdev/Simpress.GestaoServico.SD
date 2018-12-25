@@ -14,6 +14,10 @@ export class DataBindingComponent implements OnInit {
     return 1;
   }
 
+  nomeDoCurso: string = 'Curso de Angular 4';
+  sobreCurso: string = 'sobre do curso ';
+
+  valorInicial: number = 15;
 
   curtirCurso() {
     return true;
@@ -21,6 +25,11 @@ export class DataBindingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  }
+
+
+  onMudouValor(evento) {
+    console.log(evento.novoValor);
   }
 
 }

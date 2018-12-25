@@ -1,5 +1,14 @@
 <section class="property-binding">
   <article>
+    <contador [valor]="valorInicial"  (mudouValor)="onMudouValor($event)"   >     <!-- SE FOR HARCODED NAO NECESSITA DE METODO SET-->
+
+    </contador>
+
+    <app-curso [nome]="nomeDoCurso"  [sobreCurso]="sobreCurso" >
+
+    </app-curso>
+
+
     <h3>Interpolation</h3>
     <p>String renderizada {{ url }}</p>
     <p>Resultado  de 1 + 1 {{ 1 + 1 }}</p>
