@@ -13,7 +13,7 @@ export class EventBindingComponent implements OnInit {
   botaoClicado() {
     alert('funcionou');
   }
-
+  nome: string = 'abc';
   valorAtual: string = '';
   valorSalvo: string = '';
   isMouseOver: boolean = false;
@@ -32,5 +32,12 @@ export class EventBindingComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  pessoa: any = {
+    nome: '',
+    idade: 20
+  }
+
+
 
 }
