@@ -17,6 +17,9 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { InputPropertyComponent } from './input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
+import { Exaula14Component } from './exaula14/exaula14.component';
+import { Exaula14TemplateComponent } from './exaula14/exaula14-template/exaula14-template.component';
+import { ClockComponent } from './clock/clock.component';
 @NgModule({
   //referenciamos componentes , diretivas e Pipes
   declarations: [
@@ -27,6 +30,9 @@ import { OutputPropertyComponent } from './output-property/output-property.compo
     EventBindingComponent,
     InputPropertyComponent,
     OutputPropertyComponent,
+    Exaula14Component,
+    Exaula14TemplateComponent,
+    ClockComponent,
 
 
   ],
