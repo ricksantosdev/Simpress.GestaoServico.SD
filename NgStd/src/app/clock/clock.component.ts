@@ -9,9 +9,7 @@ import { switchMap, take, tap } from 'rxjs/operators';
   styleUrls: ['./clock.component.css']
 })
 
-@Directive({
-  selector: '[counter]'
-})
+
 export class ClockComponent implements OnChanges, OnDestroy {
 
   private counter$ = new Subject<any>();

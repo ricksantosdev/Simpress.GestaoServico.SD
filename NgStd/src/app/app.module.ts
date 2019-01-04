@@ -20,6 +20,8 @@ import { OutputPropertyComponent } from './output-property/output-property.compo
 import { Exaula14Component } from './exaula14/exaula14.component';
 import { Exaula14TemplateComponent } from './exaula14/exaula14-template/exaula14-template.component';
 import { ClockComponent } from './clock/clock.component';
+import { Clock2Component } from './clock2/clock2.component';
+import { CicloComponent } from './ciclo/ciclo.component';
 @NgModule({
   //referenciamos componentes , diretivas e Pipes
   declarations: [
@@ -33,6 +35,8 @@ import { ClockComponent } from './clock/clock.component';
     Exaula14Component,
     Exaula14TemplateComponent,
     ClockComponent,
+    Clock2Component,
+    CicloComponent,
 
 
   ],
