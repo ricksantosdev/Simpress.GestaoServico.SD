@@ -1,14 +1,18 @@
-import { Component, OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy, Input } from '@angular/core';
+import {
+  Component,  OnInit,   OnChanges,   DoCheck,   AfterContentInit,   AfterContentChecked,   AfterViewInit,   AfterViewChecked,   OnDestroy,
+  Input
+} from '@angular/core';
 import { log } from 'util';
 
 @Component({
   selector: 'app-ciclo',
   templateUrl: './ciclo.component.html',
   styleUrls: ['./ciclo.component.css']
-})
-export class CicloComponent implements OnInit, OnChanges, DoCheck, AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
+}) // declarar as interfaces sao boas praticas de programacao
+export class CicloComponent implements OnInit,   OnChanges,   DoCheck,   AfterContentInit,   AfterContentChecked,   AfterViewInit,   AfterViewChecked,  OnDestroy {
 
-  @Input() valorInicial: number = 10;
+  // input property
+  @Input() valorInicial = 10;
 
   ngOnDestroy() {
     log('ngOnDestroy');
@@ -28,6 +32,8 @@ export class CicloComponent implements OnInit, OnChanges, DoCheck, AfterContentI
   ngDoCheck() {
     log('ngDoCheck');
   }
+
+  // sao disparados nas mudanças com input property
   ngOnChanges() {
     log('ngOnChanges');
   }
@@ -36,6 +42,8 @@ export class CicloComponent implements OnInit, OnChanges, DoCheck, AfterContentI
     log('constructor');
   }
 
+  // dentro deste metodo iremos fazer uma chamada ao servidor
+  // chamada de servico para trazer dados
   ngOnInit() {
     log('ngOnInit');
   }

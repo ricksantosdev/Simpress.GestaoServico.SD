@@ -1,11 +1,11 @@
-//prepara a aplicação para ser servida em um browser
+// prepara a aplicação para ser servida em um browser
 import { BrowserModule } from '@angular/platform-browser';
-//modulo principal
+// modulo principal
 import { NgModule } from '@angular/core';
-//modulo para trabalhar com formularios
-//Two Way Data Binding
+// modulo para trabalhar com formularios
+// Two Way Data Binding
 import { FormsModule } from '@angular/forms';
-//objeto para trabalhar com Requisições HTTP
+// objeto para trabalhar com Requisições HTTP
 import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -23,7 +23,7 @@ import { ClockComponent } from './clock/clock.component';
 import { Clock2Component } from './clock2/clock2.component';
 import { CicloComponent } from './ciclo/ciclo.component';
 @NgModule({
-  //referenciamos componentes , diretivas e Pipes
+  // referenciamos componentes , diretivas e Pipes
   declarations: [
     AppComponent,
     MeuPrimeiroComponent,
@@ -40,7 +40,7 @@ import { CicloComponent } from './ciclo/ciclo.component';
 
 
   ],
-  //informamos os modulos que usamos na aplicação
+  // informamos os modulos que usamos na aplicação
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -49,10 +49,10 @@ import { CicloComponent } from './ciclo/ciclo.component';
     CursosModule
 
   ],
-  //informamos os serviços que serão utlizados | declarado aqui é de scopo global para aplicação
+  // informamos os serviços que serão utlizados | declarado aqui é de scopo global para aplicação
   providers: [],
-  //esta instrução só é encontrada no componente raiz e indica qual
-  //componente será instaciada quando app for iniciada
+  // esta instrução só é encontrada no componente raiz e indica qual
+  // omponente será instaciada quando app for iniciada
   bootstrap: [AppComponent]
 })
 export class AppModule { }
